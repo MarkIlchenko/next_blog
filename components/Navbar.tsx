@@ -25,15 +25,15 @@ function Navbar() {
         <ul className="flex-center gap-x-3 max-md:hidden md:gap-x-10">
           <li className="body-text text-gradient_blue-purple !font-bold">
             <Link
-              href="https://jsmastery.pro/next13"
+              href="/"
               target="_blank"
             >
-              Next.js 13.4 Course
+              Next.js 13.4
             </Link>
           </li>
           <li className="body-text !font-bold">
             <Link
-              href="https://jsmastery.pro/masterclass"
+              href="/"
               target="_blank"
             >
               Masterclass
