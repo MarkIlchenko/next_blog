@@ -52,6 +52,7 @@ async function Page({ searchParams }: Props) {
                 image={resource.image}
                 downloadNumber={resource.views}
                 downloadLink={resource.downloadLink}
+                postLink={`posts/${resource._id}`}
               />
             ))
           ) : (

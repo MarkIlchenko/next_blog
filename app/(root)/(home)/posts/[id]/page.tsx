@@ -81,6 +81,7 @@ const page = async({ params }: { params: { id: string }}) => {
                   title={resource.title}
                   id={resource._id}
                   image={resource.image}
+                  postLink={`${resource._id}`}
                 />
               ))}
             </div>

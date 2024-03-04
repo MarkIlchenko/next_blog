@@ -9,12 +9,13 @@ interface Props {
   image: string;
   downloadNumber?: number;
   downloadLink?: string;
+  postLink: string;
 }
 
-const ResourceCard = ({ id, title, image, downloadNumber, downloadLink }: Props) => {
+const ResourceCard = ({ id, title, image, downloadNumber, downloadLink, postLink }: Props) => {
   return (
     <Card className="w-full max-w-fit border-0 !bg-transparent sm:max-w-[356px]">
-      <Link href={`posts/${id}`}>
+      <Link href={`${postLink}`}>
         <CardHeader className="flex-center flex-col gap-2.5 !p-0">
           <div className="h-fit w-full">
             <Image
